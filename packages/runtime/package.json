@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "test": "uvu -r ts-node/register test",
     "test:watch": "watchlist src test -- npm test"
   },
