@@ -15,7 +15,7 @@ function isPlainObject(value: any) {
 type HoleId = string | symbol | number;
 
 let config = {
-  extensionHost: "http://localhost:17341",
+  extensionHost: "http://10.0.2.2:17341",
 };
 
 export function configure(newConfig: Partial<typeof config>) {
